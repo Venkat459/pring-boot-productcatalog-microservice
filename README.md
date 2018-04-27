@@ -7,17 +7,18 @@ Below Dependencies are used
 	spring-boot-starter-data-jpa
 	com.h2database(runtime)
 	spring-boot-starter-test(test)
+	jdk 1.8
 
 Below Rest Resource APIs are designed.
 
 1) POST (Create A single product resource)
 
-	Request:
+	Request:  
 		
-	url:http://localhost:8080/products
-	httpmethod: post
-	httpheaders:  [accept:application/json]
-	Request Payload:
+	url:http://localhost:8080/products  
+	httpmethod: post  
+	httpheaders:  [accept:application/json]  
+	Request Payload:  
 	{
 	
 	"productName":"HeadFirstDesign Design Patterns",
